@@ -20,8 +20,11 @@ namespace FamilyDictionary
             myPeeps.Add("brosef", new Dictionary<string, string> {
                 { "name", "PolloDiablo" },
                 { "age", "42" }
-                });
-            
+             });
+            myPeeps.Add("broheim", new Dictionary<string, string> {
+                { "name", "Peazy" },
+                { "age", "42"}
+            });
 
             foreach (var i in myPeeps)
             {
