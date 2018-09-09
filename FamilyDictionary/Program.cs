@@ -9,14 +9,19 @@ namespace FamilyDictionary
         {
             Dictionary<string, Dictionary<string, string>> myPeeps = new Dictionary<string, Dictionary<string, string>>();
 
-            myPeeps.Add("Mom", new Dictionary<string, string> {
+            myPeeps.Add("madre", new Dictionary<string, string> {
                 { "name", "MommaFox" },
                 { "age", "42" }
             });
-            myPeeps.Add("Dad", new Dictionary<string, string> {
+            myPeeps.Add("padre", new Dictionary<string, string> {
                 { "name", "FoxyPop" },
                 { "age", "42" }
             });
+            myPeeps.Add("brosef", new Dictionary<string, string> {
+                { "name", "PolloDiablo" },
+                { "age", "42" }
+                });
+            
 
             foreach (var i in myPeeps)
             {
